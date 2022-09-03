@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "SLANT"; 
+    src: url("../fonts/SLANT.TTF")
+    } 
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: SLANT;
+}
+h1{
+    padding-right: 20px;
+}
+.light_blue{
+    color: #d9f7ff;
+}
+.blue{
+    color: #00ccff;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: center;
+    font-size: 30px
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7f0000;
+    font-size: 22px;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7f0000;
+    font-size: 22px;
+}
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7f0000;
+    font-size: 22px;
+}
+a{
+    color: #ff5c5c;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nn {
+    margin-block: 0;
+}
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    font-size: 10px;
+}
+.p {
+    font-size: 22px;
+}
+i.fa-solid.fa-bars {
+    font-size: 50px;
+    color: #a8a8ff;
+    margin-left: 7px;
+}
